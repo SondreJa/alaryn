@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "sass-lint": "sass-lint --verbose --output-file sass-lint-output.html sass",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href \"https://alaryn-a9cbc.firebaseapp.com/\" && firebase deploy"
   },
   "private": true,
   "dependencies": {
