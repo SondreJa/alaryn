@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { AngularSamplePage } from './app.po';
 
-describe('alaryn-app App', () => {
-  let page: AppPage;
+describe('angular-sample App', () => {
+  let page: AngularSamplePage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new AngularSamplePage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
