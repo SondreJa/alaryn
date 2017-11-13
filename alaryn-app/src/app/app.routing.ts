@@ -13,6 +13,12 @@ const routes: Routes = [{
   path: 'races',
   loadChildren: './races/races.module#RacesModule'
 }, {
+  path: 'classes',
+  loadChildren: './classes/classes.module#ClassesModule'
+}, {
+  path: 'places',
+  loadChildren: './places/places.module#PlacesModule'
+}, {
   path: 'mechanics',
   loadChildren: './mechanics/mechanics.module#MechanicsModule'
 }
