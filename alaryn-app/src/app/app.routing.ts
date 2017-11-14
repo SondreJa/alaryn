@@ -19,6 +19,9 @@ const routes: Routes = [{
   path: 'places',
   loadChildren: './places/places.module#PlacesModule'
 }, {
+  path: 'godlore',
+  loadChildren: './godlore/godlore.module#GodloreModule'
+}, {
   path: 'mechanics',
   loadChildren: './mechanics/mechanics.module#MechanicsModule'
 }
