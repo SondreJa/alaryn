@@ -1,8 +1,22 @@
-h1{
+h1, h2, h3, a{
   font-family: "JSL Ancient";
+}
+
+h1{
   font-size: 400%;
 }
 
+h2{
+  font-size: 300%;
+}
+
+h3{
+  font-size: 200%;
+}
+
+ul{
+  list-style: none;
+}
 p{
   font-family: "JSL Ancient";
   font-size: 1.3em;
